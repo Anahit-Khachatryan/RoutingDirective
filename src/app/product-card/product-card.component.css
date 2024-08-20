@@ -1,0 +1,14 @@
+.product-card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    color:black;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: box-shadow .3s;
+    display: block;
+}
+
+.product-card:hover {
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.5);
+}

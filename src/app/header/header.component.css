@@ -1,0 +1,16 @@
+header {
+   padding: 20px 40px;
+   background-color: blue;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+}
+
+header a {
+   text-decoration: none;
+   color: red
+}
+
+header a:not(.active):visited {
+   color: white
+}
